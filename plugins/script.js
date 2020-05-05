@@ -34,7 +34,7 @@ function sortTable() {
         arr.push(cells[0].textContent);
         arr.sort();
     };
-    console.log(arr);
+    document.getElementById("table").innerHTML = arr.join("<br>");
 };
 
 // 3. Создать HTML-страницу с блоком текста в рамочке.
