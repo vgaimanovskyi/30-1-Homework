@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30_homework</title>
+    <style>
+        #textarea {
+            width: 100%;
+            height: 100px;
+            resize: none;
+        }
+
+        table {
+            width: 150px;
+            margin: 0 auto;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        p {
+            border: 1px solid #ccc;
+            width: 500px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Домашнее задание:</h2>
+    <div>
+        1. Создать HTML-страницу для отображения/редактирования текста. При открытии страницы текст отображается с
+        помощью тега div. При нажатии Ctrl + E, вместо div появляется textarea с тем же текстом, который теперь
+        можно редактировать. При нажатии Ctrl + , вместо textarea появляется div с уже измененным текстом. Не
+        забудьте выключить поведение по умолчанию для этих сочетаний клавиш.
+    </div>
+    <br>
+    <div id="task-1">
+        <div id="div">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quia minima provident velit ratione ex
+            odio laborum, iusto sunt nemo, quis delectus? Tempora ducimus, enim quam, alias delectus debitis adipisci
+            nemo id quos quod dolores totam distinctio corrupti perferendis asperiores.
+        </div>
+    </div>
+    <hr>
+    <br>
+    <div>
+        2. Создать HTML-страницу с большой таблицей. При клике по заголовку колонки, необходимо отсортировать данные по
+        этой колонке. Учтите, что числовые значения должны сортироваться как числа, а не как строки.
+    </div>
+    <div style="color: red;">!! error !!</div>
+    <table id="table">
+        <tr style="cursor: pointer;">
+            <th onclick="sortTable()">letter</th>
+        </tr>
+        <tr>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>5</td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <div>
+        3. Создать HTML-страницу с блоком текста в рамочке. Реализовать возможность изменять размер блока, если зажать
+        мышку в правом нижнем углу и тянуть ее дальше.
+    </div>
+    <div style="color: red;">!! error !!</div>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui vero quis fugit animi autem accusamus optio quam
+        facere dignissimos tempora?
+    </p>
+    <script src="plugins/script.js"></script>
+</body>
+
+</html>
